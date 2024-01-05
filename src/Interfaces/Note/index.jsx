@@ -70,7 +70,7 @@ export function Note() {
             {user.avatar ? (
               <img src={avatarPreview} alt="Foto de perfil" />
             ) : (
-              <AiOutlineUser size={64} />
+              <AiOutlineUser size={16} />
             )}
 
             <span>Por {user.name}</span>
